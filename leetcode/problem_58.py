@@ -29,4 +29,9 @@ Constraints:
 - There will be at least one word in s.
 
 """
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        _s = s.strip()
+        list_s = _s.split(' ')
+        return len(list_s[-1])
 
