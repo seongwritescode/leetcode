@@ -1,5 +1,5 @@
 import unittest
-from problem_28 import Solution
+from ..problem_28 import Solution
 
 class SearchInsertTest(unittest.TestCase):
 	solution = Solution()
